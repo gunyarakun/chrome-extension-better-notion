@@ -1,0 +1,35 @@
+{
+  "name": "chrome-extension-better-notion",
+  "version": "0.0.1",
+  "description": "Chrome Extension makes Notion better",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gunyarakun/chrome-extension-better-notion.git"
+  },
+  "author": "Tasuku SUENAGA a.k.a. gunyarakun",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/gunyarakun/chrome-extension-better-notion/issues"
+  },
+  "homepage": "https://github.com/gunyarakun/chrome-extension-better-notion#readme",
+  "dependencies": {
+    "webextension-polyfill-ts": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^6.4.0",
+    "@types/webpack": "^4.41.26",
+    "copy-webpack-plugin": "^8.0.0",
+    "ts-loader": "^8.0.17",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "keywords": [
+    "notion"
+  ]
+}
